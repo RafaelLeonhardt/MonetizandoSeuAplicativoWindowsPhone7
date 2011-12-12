@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonetizandoSeuAplicativoWindowsPhone7", "MonetizandoSeuAplicativoWindowsPhone7.csproj", "{FE0BF45A-5479-44B9-A5C0-C40CFF435B38}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lib", "Lib", "{02DB5299-EDCE-47CA-8326-EEFE440B987F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "mobFox", "mobFox", "{39540CEF-1901-441B-AC36-1A1A8DD2A4FC}"
+	ProjectSection(SolutionItems) = preProject
+		..\Lib\mobFox\MobFox Windows Phone 7 SDK.pdf = ..\Lib\mobFox\MobFox Windows Phone 7 SDK.pdf
+		..\Lib\mobFox\MobFox.Ads.dll = ..\Lib\mobFox\MobFox.Ads.dll
+		..\Lib\mobFox\MobFox.Ads.LocationAware.dll = ..\Lib\mobFox\MobFox.Ads.LocationAware.dll
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE0BF45A-5479-44B9-A5C0-C40CFF435B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE0BF45A-5479-44B9-A5C0-C40CFF435B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE0BF45A-5479-44B9-A5C0-C40CFF435B38}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{FE0BF45A-5479-44B9-A5C0-C40CFF435B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE0BF45A-5479-44B9-A5C0-C40CFF435B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE0BF45A-5479-44B9-A5C0-C40CFF435B38}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{39540CEF-1901-441B-AC36-1A1A8DD2A4FC} = {02DB5299-EDCE-47CA-8326-EEFE440B987F}
+	EndGlobalSection
+EndGlobal
